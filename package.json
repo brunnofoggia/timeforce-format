@@ -1,0 +1,31 @@
+{
+    "name": "timeforce-format",
+    "description": "Format data",
+    "url": "http://timeforce-format.99xp.org",
+    "author": "Bruno Foggia",
+    "version": "0.0.1",
+    "main": "dist/format.min.js",
+    "type": "module",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha",
+        "build": "npm run minify",
+        "minify": "node ./terser.js",
+        "doc": "docco src/*.js -l linear -l ../../../docs/template/",
+        "lint": "eslint src/*.js"
+    },
+    "dependencies": {
+        "crypto-js": "^4.1.1",
+        "format-99xp": "github:brunnofoggia/format-99xp",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "docco": "^0.9.1",
+        "eslint": "^8.9.0",
+        "filesize": "^8.0.7",
+        "glob": "^7.2.0",
+        "mocha": "^9.2.1",
+        "terser": "^5.11.0",
+        "timeforce": "github:brunnofoggia/timeforce"
+    }
+}
