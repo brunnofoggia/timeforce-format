@@ -3,7 +3,7 @@
     "description": "Format data",
     "url": "http://timeforce-format.99xp.org",
     "author": "Bruno Foggia",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "main": "dist/format.min.js",
     "type": "module",
     "license": "MIT",
